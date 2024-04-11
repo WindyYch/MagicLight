@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/img/icon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="twitter:site" content="@Magiclight0926">
+  <meta name="keywords" content="MagicLight, AI">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Magiclight">
+  <title>MagicLight</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="font-body overflow-x-hidden">
+      <div class="container fixed z-50 top-[0.2rem] px-[2.825rem] left-1/2 -translate-x-1/2">
+        <div class="tab pt-[0.2rem] text-white">
+          <div class="absolute top-[0.2rem] left-0">
+            <span class="font-bold text-[0.24rem] block" >
+              <img class="inline-block w-[0.4rem] h-[0.4rem]" width="100%" height="100%"
+              src="/assets/img/logo.svg" alt="logo" />
+                MagicLight
+            </span>
+          </div>
+          <div
+            class="menu text-white z-50 w-[4.79rem] py-[0.12rem] px-[0.24rem] h-[0.48rem]
+                  bg-white/20 backdrop-blur-[0.24rem] col-start-4 col-end-10 grid grid-cols-4 text-center font-semibold border border-solid rounded-[0.24rem] border-white/20 relative left-1/2 -translate-x-1/2 top-0 text-[0.16rem]">
+            <a href="#first">Workflow</a>
+            <a href="#second">Showcase</a>
+            <a href="#third">Shots</a>
+            <a href="#fourth">Characters</a>
+          </div>
+          <a href="https://twitter.com/Magiclight0926" class="right-0 absolute top-[0.2rem]" target="_blank">
+              <div class="button cursor-pointer
+                h-[0.44rem] w-[1.58rem] py-[0.1rem] px-[0.24rem] font-semibold text-white text-center
+              bg-gradient-to-tr  from-[#FF3D00] via-black to-[#0094FF] 
+              border border-solid rounded-[0.34rem] border-white/60 text-[0.16rem]">
+            <span class="inline-block">Contact us</span><img src="/assets/img/arrow_right.svg" width="100%" height="100%" alt="arrow right" class="inline-block ml-[0.04rem] w-[0.16rem] h-[0.16rem]">
+            </div>
+          </a>
+        </div>
+      </div>
+      <section id="first">
+        <div class="bg-[#030014] bg-cover bg-center w-screen h-screen"
+          style="background-image: url('/assets/img/bg.png');">
+          <div class="contain-layout">
+            <div class="main grid text-center justify-center mt-[2.34rem]">
+              <div class="title text-[0.72rem] font-semibold text-[#F0F0F0] leading-[1.08rem]">Creating Story
+                videos
+                </br>
+                with a simple script</div>
+              <div class="title text-[0.24rem] my-[0.24rem] font-normal text-[#CCC] leading-[0.36rem] h-[1.2rem]">
+                Turn your
+                imagination
+                into
+                reality with Magiclight! Just write a simple script,</br>and we'll transform your story into
+                a
+                movie using our AI-powered engine.</div>
+              <div
+                class="email pl-[0.36rem] pr-[0.08rem] py-[0.08rem] rounded-[0.3rem] h-[0.6rem] w-[6.8rem] bg-white/20 backdrop-blur-[0.12rem] text-left relative left-1/2 -translate-x-1/2">
+                <form action="">
+                  <input id="email-input" autocomplete="off" type="email"
+                    class="w-[4.58rem] h-[0.44rem] bg-transparent text-[0.18rem] text-[#CCC] focus:outline-none absolute"
+                    placeholder="Please enter your email">
+                  <div id="email-input-button" role="button" onclick="debouncedLogEmail('email-input')" class="button cursor-pointer absolute right-[0.08rem] top-[0.08rem]
+                                           h-[0.44rem] py-[0.1rem] px-[0.24rem] font-semibold text-white text-center text-[0.16rem]
+                                          bg-gradient-to-tr  from-[#FF3D00] via-black to-[#0094FF] 
+                                          border border-solid rounded-[0.34rem] border-white/60">
+                    Join waitlist<img src="/assets/img/arrow_right.svg" width="100%" height="100%" alt="arrow right" class="inline-block ml-[0.04rem] w-[0.16rem] h-[0.16rem]"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="absolute bottom-[1.2rem] w-[0.28rem] h-[1.59rem] left-1/2 -translate-x-1/2"><img width="100%" height="100%" src="/assets/img/down.png" alt="down">
+          </div>
+        </div>
+      </section>
+      <section id="second">
+        <div class="bg-[#030014] w-screen h-screen">
+          <div class="contain-layout">
+            <div class="main grid text-center justify-center mt-[2.34rem]">
+              <div
+                class="title text-[0.24rem] mb-[0.08rem] font-semibold text-transparent leading-[0.36rem] bg-clip-text bg-gradient-to-tr from-[#FF3D00] to-[#0094FF]">
+                Workflows</div>
+              <div class="title text-[0.56rem] font-semibold text-[#F0F0F0] leading-[0.84rem]">From imagination
+                </br>
+                to video brilliance</div>
+              <div
+                class="w-screen px-[1.6rem] h-[7.08rem] text-[#FFF] text-left grid grid-cols-[1rem_5.53rem_9.34rem] mt-[0.48rem]">
+                <div class="h-[3.84rem] w-[0.02rem] bg-[#5B5966]">
+                  <div id="workFlowsScrollBar" class="w-[0.02rem] h-[0.96rem] bg-gradient-to-b from-[#FF3D00] to-[#0094FF] transition-all delay-150 ease-out"></div>
+                </div>
+                <div class="h-[3.84rem] w-[5.53rem] transition-all ease-in-out delay-150">
+                  <div class="h-[0.66rem]" onclick="handleWorkFlowsVideoPlayer(0)">
+                    <div
+                      class="workflows-video-title text-[0.24rem] font-semibold leading-[0.36rem] cursor-pointer text-[#75757e]">
+                      Draft a script</div>
+                    <div class="workflows-video-content mt-[0.06rem] text-[0.16rem] h-[0.24rem] text-[#504f5b]">
+                      Craft your preferred story setting and character traits.</div>
+                  </div>
+                  <div class="h-[0.66rem] mt-[0.4rem]" onclick="handleWorkFlowsVideoPlayer(1)">
+                    <div
+                      class="workflows-video-title text-[0.24rem] font-semibold leading-[0.36rem] cursor-pointer text-[#75757e]">
+                      Create characters</div>
+                    <div class="workflows-video-content mt-[0.06rem] text-[0.16rem] h-[0.24rem] text-[#504f5b]">
+                      Choose story character avatars and story voiceovers.</div>
+                  </div>
+                  <div class="h-[0.66rem] mt-[0.4rem]" onclick="handleWorkFlowsVideoPlayer(2)">
+                    <div
+                      class="workflows-video-title text-[0.24rem] font-semibold leading-[0.36rem] cursor-pointer text-[#75757e]">
+                      Storyboarding</div>
+                    <div class="workflows-video-content mt-[0.06rem] text-[0.16rem] h-[0.24rem] text-[#504f5b]">
+                      Adjust the storyboard panel to achieve the picture you want.</div>
+                  </div>
+                  <div class="h-[0.66rem] mt-[0.4rem]" onclick="handleWorkFlowsVideoPlayer(3)">
+                    <div
+                      class="workflows-video-title text-[0.24rem] font-semibold leading-[0.36rem] cursor-pointer text-[#75757e]">
+                      Tweak, animate, finish!</div>
+                    <div class="workflows-video-content mt-[0.06rem] text-[0.16rem] h-[0.24rem] text-[#504f5b]">
+                      You can turn the story into a video with one click, and finally publish it.</div>
+                  </div>
+                  </ul>
+                </div>
+                <div class="ml-6 video-player w-[9.34rem] h-[5.12rem] overflow-hidden relative">
+                  <video width="100%" height="100%" id="workFlowsVideoPlayer" src="/assets/video/workFlowsVideo_1.mp4"
+                    autoplay muted webkit-playsinline='true' playsinline='true'></video>
+                </div>
+                <div class="shadow-blue absolute blur-[1rem] w-[1rem] h-[1rem]"><img width="100%" height="100%"
+                    src="/assets/img/shadow-blue.svg" alt="shadow-blue"></div>
+                <div class="shadow-red absolute bottom-0 blur-[1rem] w-[1rem] h-[1rem]"><img width="100%" height="100%"
+                    src="/assets/img/shadow-red.svg" alt="shadow-red"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section id="third">
+        <div class="bg-[#030014] w-screen h-screen">
+          <div class="contain-layout">
+            <div class="main grid text-center justify-center mt-[1.08rem]">
+              <div
+                class="title text-[0.24rem] font-semibold text-transparent leading-[0.36rem] bg-clip-text bg-gradient-to-tr from-[#FF3D00] to-[#0094FF]">
+                Showcase</div>
+              <div
+                class="title text-[0.56rem] font-semibold text-[#F0F0F0] leading-[0.84rem] my-[0.16rem] relative w-[8.84rem] left-1/2 -translate-x-1/2">
+                Here are some demonstrations
+                </br> about scene consistency
+                <div class="shadow-blue absolute blur-[1rem] w-[1rem] h-[1rem] top-[0.48rem] left-[1rem]"><img
+                    width="1rem" height="1rem" src="/assets/img/shadow-blue.svg" alt="shadow-blue"></div>
+              </div>
+              <div class="title text-[0.16rem] font-normal text-[#7E7E86] leading-[0.24rem]">What kind of story
+                would you like to tell? Maybe a
+                science fiction about aliens?
+                </br> A vampire falls in
+                love with a human girl? A murder on a snow
+                mountain? Here are
+                </br>some showcases.
+                <div
+                  class="w-screen px-[3.6rem] h-[6.8rem] text-left grid grid-cols-2 grid-rows-2 gap-[0.16rem] mt-[0.48rem]">
+                  <div class="video-player bg-[#1C192B] overflow-hidden rounded-[0.24rem]"><video width="100%"
+                      height="100%" controls src=""></video></div>
+                  <div class="video-player bg-[#1C192B] overflow-hidden rounded-[0.24rem]"><video width="100%"
+                      height="100%" controls src=""></video></div>
+                  <div class="video-player bg-[#1C192B] overflow-hidden rounded-[0.24rem]"><video width="100%"
+                      height="100%" controls src=""></video></div>
+                  <div class="video-player bg-[#1C192B] overflow-hidden rounded-[0.24rem]"><video width="100%"
+                      height="100%" controls src=""></video></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="fourth">
+        <div class="bg-[#030014] w-screen h-screen">
+          <div class="contain-layout">
+            <div class="main grid text-center justify-center mt-[1.08rem]">
+              <div
+                class="title text-[0.24rem] font-semibold text-transparent leading-[0.36rem] bg-clip-text bg-gradient-to-tr from-[#FF3D00] to-[#0094FF]">
+                Shots</div>
+              <div
+                class="title text-[0.56rem] font-semibold text-[#F0F0F0] leading-[0.84rem] my-[0.16rem] relative w-[8.84rem] left-1/2 -translate-x-1/2">
+                Here are some demos
+                </br> About character consistency
+                <div class="shadow-blue absolute blur-[1rem] w-[1rem] h-[1rem] top-[0.48rem] left-[1rem]"><img
+                    width="100%" height="100%" src="/assets/img/shadow-blue.svg" alt="shadow-blue"></div>
+              </div>
+              <div class="title text-[0.16rem] font-normal text-[#7E7E86] leading-[0.24rem]">We offer a list of
+                actors and actress. You cancreate your own actors in your
+                </br> story, keep theirappearance consistent across different scenes. If you choose to
+                </br>make your actors public, theycan be used by other creators as well.
+                <div class="w-screen px-[3.6rem] h-[4.8rem] text-left grid grid-cols-4 mt-[0.48rem]">
+                  <div class="bg-[#646464] overflow-hidden rounded-l-[0.24rem] border-s-1"><img
+                    width="100%" height="100%" class="w-[4.8rem] h-[3rem]" src="/assets/img/testImg.webp" alt=""></div>
+                  <div class="bg-[#646464] overflow-hidden"><img width="100%" height="100%" class="w-[4.8rem] h-[3rem]" src="/assets/img/testImg.webp" alt="">
+                  </div>
+                  <div class="bg-[#646464] overflow-hidden"><img width="100%" height="100%" class="w-[4.8rem] h-[3rem]" src="/assets/img/testImg.webp" alt="">
+                  </div>
+                  <div class="bg-[#646464] overflow-hidden rounded-r-[0.24rem]"><img width="100%" height="100%" class="w-[4.8rem] h-[3rem]" src="/assets/img/testImg.webp"
+                      alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts" defer></script>
+</body>
+
+</html>
